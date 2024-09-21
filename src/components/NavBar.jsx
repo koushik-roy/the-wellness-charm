@@ -1,12 +1,12 @@
 import React from "react";
 import "../css/NavBar.css";
+import logo from "../assets/THE_FITNESS_GAME-removebg-preview.png";
 
 const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-icon">
-        <img src="path_to_your_icon.png" alt="Icon" />{" "}
-        {/* Replace with your icon */}
+        <img src={logo} alt="Icon" /> {/* Replace with your icon */}
       </div>
       <div className="navbar-links">
         <a href="/">Home</a>
