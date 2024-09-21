@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/NavBar.css";
-import logo from "../assets/THE_FITNESS_GAME-removebg-preview.png";
+import logo from "../assets/logo.png";
 
 const NavBar = () => {
   return (
@@ -12,8 +12,9 @@ const NavBar = () => {
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/testimonials">Testimonials</a>
+        <a href="/calendar">Calendar</a>
         <a href="/blog">Blog</a>
-        <a href="/contact">Contact Us</a>
+        <a href="/contact" className="button-style">Contact Us</a>
       </div>
     </nav>
   );
