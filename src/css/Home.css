@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    
+  }
+  .home-content {
+   text-align: left;
+    margin: 15vh 0 15vh 15vh ;
+    width: 50%;
+  
+    height: 50%;
+    font-family: Helvetica, sans-serif;
+  }
+  .home-image {
+   margin-top: 15vh;
+
+    width: 50%;
+
+    height: 90%;
+  }
+  .home-image img {
+
+    max-width:100%;
+    max-height:100%;
+   
+      
+  }
+
+  .home-header-text {
+    color: #DFE0DC;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .home-header-text span {
+    color: #EF5B5B;
+  }
+
+  .home-para-text  {
+        color:#D1D3C4;
+        margin-bottom: 35px;
+  }
+
+  .home-button {
+    color:#DFE0DC;
+    background-color:transparent;
+    border: 1px solid #EF5B5B;
+    border-radius: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+
+
+  }
+
+  .home-button:hover {
+    transition: box-shadow .2s;
+    box-shadow: #EF5B5B 0 0 0 2px, #D1D3C4 0 0 0 4px;
+    color:#DFE0DC;
+    background-color: #EF5B5B;
+  }
+  
