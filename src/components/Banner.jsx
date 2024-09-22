@@ -7,7 +7,7 @@ const Banner = () => {
      <div className="home-banner">
        <div className="banner-text">
        <img src={clock} alt="Icon" />
-       <span>Time : Monday - Friday (10am - 9pm)</span>
+       <span>Time </span>
        </div>
        <div className="banner-social-links">
 
