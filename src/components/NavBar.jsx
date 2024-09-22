@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-icon">
-        <img src={logo} alt="Icon" /> {/* Replace with your icon */}
+        <img src={logo} alt="Icon" />
       </div>
       <div className="navbar-links">
         <a href="/">Home</a>
