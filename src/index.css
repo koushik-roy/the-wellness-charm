@@ -2,6 +2,7 @@
   font-family: sans-serif;
   line-height: 1.5;
   background-color: #161925;
+  position: fixed;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
