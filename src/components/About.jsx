@@ -21,7 +21,9 @@ const aboutPage = () => {
               Accusantium sequi nihil eveniet corrupti. Quidem officia, quod
               architecto corporis, ducimus libero sit doloribus nihil quas
               repellendus obcaecati placeat necessitatibus. Consequatur, aut
-              quam! Cupiditate quod fugiat quisquam minus! Placeat praesentium
+              quam! Cupiditate quod fugiat quisquam minus! 
+              
+              <p>Placeat praesentium
               impedit officiis quasi repellat blanditiis suscipit earum sunt
               neque quas. Quas architecto ab deleniti nisi optio qui libero
               facere perspiciatis? Quae sed, eveniet amet pariatur porro in odio
@@ -29,7 +31,7 @@ const aboutPage = () => {
               explicabo eius totam magnam voluptas ea aspernatur voluptatum
               repudiandae neque. Culpa incidunt velit molestias saepe molestiae
               eius numquam, obcaecati nulla earum voluptas? Quas dignissimos
-              facilis rem.
+              facilis rem.</p>
             </p>
           </div>
           <button className="join-button"> Join Now</button>
