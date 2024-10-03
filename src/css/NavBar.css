@@ -7,18 +7,15 @@
   gap: 40px;
   height: 56px;
   padding: 10px 20px; /* Padding */
-
-  
 }
 
-.navbar-icon{
-
+.navbar-icon {
 }
 
 .navbar-icon img {
   object-fit: scale-down;
   padding-top: 50px;
-  height:250px;
+  height: 250px;
 }
 
 .navbar-links {
@@ -29,26 +26,25 @@
   align-items: center;
 }
 
-.navbar-links  .button-style{
-  background-color: #EF5B5B;
-  color: #DFE0DC;
+.navbar-links .button-style {
+  background-color: #ef5b5b;
+  color: #dfe0dc;
   border-radius: 30px;
-  border: 1px solid #8F9092;
+  border: 1px solid #8f9092;
   padding: 10px 20px;
   transition: all 0.2s ease;
 }
-.navbar-links  .button-style:hover {
+.navbar-links .button-style:hover {
   background-color: #161925;
-  color: #EF5B5B;
+  color: #ef5b5b;
 }
 
 .navbar-links a {
-  color: #DFE0DC; /* Text color */
+  color: #dfe0dc; /* Text color */
   text-decoration: none; /* Remove underline */
   transition: color 0.3s; /* Smooth transition */
 }
 
 .navbar-links a:hover {
-  color: #EF5B5B; /* Change color on hover */
+  color: #ef5b5b; /* Change color on hover */
 }
-

@@ -1,48 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap");
-
-.home-section {
+.about-section {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 90vh;
 }
-.home-content {
+
+.about-content {
   text-align: left;
-  margin: 15vh 0 15vh 15vh;
+  margin: 25vh 0 15vh 15vh;
   width: 50%;
 
   height: 50%;
   font-family: Helvetica, sans-serif;
 }
-.home-image {
-  margin-top: 15vh;
 
-  width: 50%;
-
-  height: 90%;
+.about-image {
+  margin-top: 40vh;
+  width:auto;
+  height: 70vh;
+  
 }
-.home-image img {
+
+.about-image img {
+  transform: scale(1.5);
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
+ 
 }
 
-.home-header-text {
-  color: #dfe0dc;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 48px;
-  font-family: "Montserrat", sans-serif;
-}
-.home-header-text span {
-  color: #ef5b5b;
-}
-
-.home-para-text {
+.about-para-text {
   color: #d1d3c4;
   margin-bottom: 35px;
 }
 
-.home-button {
+.about-header-text {
+  color: #ef5b5b;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.join-button {
   color: #dfe0dc;
   background-color: transparent;
   border: 1px solid #ef5b5b;
@@ -64,7 +61,7 @@
   width: auto;
 }
 
-.home-button:hover {
+.join-button:hover {
   transition: box-shadow 0.2s;
   box-shadow: #ef5b5b 0 0 0 2px, #d1d3c4 0 0 0 4px;
   color: #dfe0dc;
